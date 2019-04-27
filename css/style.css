@@ -1,0 +1,416 @@
+/* здесь будут шрифты */
+@import url('https://fonts.googleapis.com/css?family=Aleo:400,700');
+
+* {
+    box-sizing: border-box;
+    transition: all .1s ease-in;
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body {
+    font: 400 16px/1.6 'Aleo', Arial, sans-serif;
+    color: white;
+
+}
+
+/* !!!!!!  HEADER  !!!!!!!!! */
+header {
+    background: #042c64 url(../img/bg1.jpg) center no-repeat;
+    background-size: cover;
+}
+
+button {
+    cursor: pointer;
+}
+
+button:hover {
+    background: #253eaf;
+}
+
+
+/* .................................... */
+/* если контейнер 1140px */
+.container {
+    max-width: 1110px;
+    margin: 0 auto;
+
+}
+
+.header-container {
+    padding-top: 260px;
+    padding-bottom: 130px;
+    text-align: center;
+}
+
+.header-h1 {
+    text-transform: uppercase;
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    letter-spacing: 10px;
+}
+
+.header-span {
+    display: inline-block;
+    font-size: 22px;
+    margin-bottom: 50px;
+    letter-spacing: 8px;
+}
+
+.header-form {
+    margin-bottom: 120px;
+    font-size: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-input {
+    width: 505px;
+    height: 65px;
+    text-align: center;
+    display: inline-block;
+    color: #999999;
+    font-size: 16px;
+}
+
+.header-input::placeholder {
+    font-size: 14px;
+    letter-spacing: 6px;
+    color: #999999;
+    margin-top: 30px;
+
+}
+
+.header-button {
+    height: 65px;
+    width: 160px;
+    border: 2px solid white;
+    display: inline-block;
+    border-left: none;
+    background-color: #5474fd;
+    color: white;
+    font-size: 14px;
+    text-transform: uppercase;
+    line-height: 1.5;
+    padding: 3px;
+    letter-spacing: 5px;
+
+
+}
+
+.header-button img {
+    vertical-align: text-bottom;
+}
+
+.header-scroll {
+
+    color: white;
+    text-decoration: none;
+    font-family: 'Aleo', Arial, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    letter-spacing: 5px;
+
+}
+
+.header-scroll:hover {
+
+    font-weight: bold;
+    text-shadow: 1px 1px 2px rgb(218, 198, 198);
+
+}
+
+.header-scroll-link {
+    display: block;
+}
+
+
+
+
+/*!!!!!! NAVBAR!!!!!!!!*/
+.navbar {
+    z-index: 2;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #5474fd;
+
+}
+
+.navbar-container {
+    height: 82px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+.navbar-logo {
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+
+/* строка списка навигации */
+.nav-item {
+    display: inline-block;
+    text-transform: uppercase;
+    list-style: none;
+}
+
+/* ..................... */
+
+/* ссылка навигации */
+.nav-item_link {
+    color: white;
+    text-decoration: none;
+    padding-top: 5px;
+
+}
+
+/* ................ */
+/* наведение на ссылку навигации */
+.nav-item_link:hover {
+    transform: scale(1.2);
+    color: aqua;
+}
+
+/* ................... */
+
+/* модификатор строки списка */
+.nav-item--modifier:not(:last-child) {
+    margin-right: 45px;
+}
+
+/* .....КОНЕЦ NAVBAR........ */
+
+
+
+.chooseUs {
+    background: #3e3d3d url(../img/bg2.jpg) center no-repeat;
+    background-size: cover;
+}
+
+.chooseUs-container {
+    padding-bottom: 123px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.chooseUs-article {
+    width: 45%;
+    text-align: left;
+
+}
+
+.chooseUs-h2 {
+    font-size: 32px;
+    margin-top: 200px;
+
+}
+
+.chooseUs-p {
+    font-weight: 400;
+    margin-bottom: 46px;
+
+}
+
+.chooseUs-p:first-of-type {
+    margin-bottom: 30px;
+}
+
+.chooseUs-button {
+    height: 62px;
+    width: 230px;
+    background-color: #5474fd;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+.chooseUs-image {
+    width: 45%;
+    margin-top: 112px;
+    text-align: right;
+
+
+
+
+}
+
+.chooseUs-image-wrap:first-child {
+    margin-right: 126px;
+}
+
+/* !!!yourWay!! */
+
+.yourWay {
+    background: #333333 url(../img/bg3.jpg) center no-repeat;
+    font-size: cover;
+
+
+}
+
+.yourWay-container {
+    height: 336px;
+    padding-bottom: 110px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    padding-top: 160px;
+}
+
+.yourWay-line {
+    z-index: 1;
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    transform: translateX(-50%)
+}
+
+.yourWay-icons {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+
+}
+
+.yourWay-icons figure:nth-child(2) {
+    margin-left: 15px;
+}
+
+
+.yourWay-icons-wrap {
+    text-align: center;
+    font-size: 36px;
+}
+
+/* !!spain!!!! */
+
+.spain {
+    background: #a5a1b8 url(../img/bg4.png) center no-repeat;
+    background-size: cover;
+}
+
+.spain-container {
+    padding-top: 236px;
+    padding-bottom: 100px;
+
+}
+
+.spain-block {
+    display: inline-block;
+    background: rgba(0, 0, 0, 0.8);
+    width: 50%;
+    padding: 47px 42px 46px 30px;
+    text-align: left;
+}
+
+.spain-span {
+    font-size: 20px;
+    display: inline-block;
+    margin-bottom: 15px;
+}
+
+.spain-h3 {
+    text-transform: uppercase;
+    margin-bottom: 15px;
+
+}
+
+.spain-p {
+    margin-bottom: 44px;
+}
+
+.spain-button {
+    height: 62px;
+    width: 232px;
+    background-color: #5474fd;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 5px;
+}
+
+
+.spain-second {
+    margin-top: -2px;
+    background: url(../img/bg5.png) center no-repeat;
+    font-size: cover;
+}
+
+
+.spain-container-second {
+    text-align: right;
+}
+
+
+.tourist {
+    background: url(../img/bg6.png) center no-repeat;
+    font-size: cover;
+}
+
+.tourist-container {
+    padding-top: 112px;
+    padding-bottom: 200px;
+    text-align: center;
+}
+
+.tourist-h2 {
+    word-spacing: 10px;
+    margin-bottom: 85px;
+}
+
+.tourist-block {
+    display: flex;
+
+}
+
+.tourist-h3 {
+    text-transform: uppercase;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.tourist-article {
+    background: #333333;
+    height: 100%;
+    text-align: left;
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-bottom: 40px;
+    padding-right: 30px;
+}
+
+
+/* .......ПОДВАЛ........... */
+.footer {
+    background: #232323;
+}
+
+.container_footer {
+    padding-top: 115px;
+    text-align: center;
+    padding-bottom: 150px;
+
+}
+
+.footer-h3 {
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    margin-top: 16px;
+}
+
+.footer-span {
+    display: inline-block;
+    margin-bottom: 25px;
+}
+
+.footer-link:not(:last-child) {
+    margin-right: 15px;
+
+}
